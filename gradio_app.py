@@ -1,6 +1,6 @@
 import gradio as gr
 import pandas as pd
-from transformers import pipeline
+from transformers.pipelines import pipeline
 import matplotlib.pyplot as plt
 import tempfile
 
@@ -16,7 +16,11 @@ def classify_feedback(file):
     predictions = []
     for feedback in df["Feedback"]:
         result = classifier(feedback, CATEGORIES)
-        predictions.append(result["labels"][0])
+        print(result)
+        if isinstance(result, dict) and "labels" in result:
+            predictions.append(result["labels"][0])
+        else:
+            predictions.append("Unknown")
 
     df["Predicted Category"] = predictions
 
