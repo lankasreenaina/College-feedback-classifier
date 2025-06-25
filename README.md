@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # College Feedback Classifier
 
 This project classifies college feedback into categories using Hugging Face's zero-shot classification pipeline.
@@ -33,3 +34,6 @@ python classify_feedback.py --categories "Academics,Facilities,Administration,Ot
 ## Notes
 - Requires Python 3.7+.
 - Uses `facebook/bart-large-mnli` for zero-shot classification. 
+=======
+# College-feedback-classifier
+>>>>>>> ea821baf103a3aa69d28999dcabe357d15e55ac5
