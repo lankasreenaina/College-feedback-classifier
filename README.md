@@ -96,7 +96,7 @@ Add screenshots here to showcase the project in action. (You can upload images t
 *The Gradio web interface for uploading and classifying feedback.*
 
 ### Example: Category Distribution Chart
-![Category Chart](screenshots/category_chart.png)
+![Category Chart](category_distribution.png)
 *Bar chart showing the distribution of feedback categories.*
 
 > **Tip:** To add your own screenshots, create a `screenshots/` folder and upload images. Update the image links above accordingly.
