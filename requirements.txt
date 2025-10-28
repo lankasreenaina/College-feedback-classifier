@@ -2,4 +2,8 @@ transformers
 pandas
 matplotlib
 seaborn
-tqdm 
+tqdm
+gradio
+scipy
+numpy
+torch
